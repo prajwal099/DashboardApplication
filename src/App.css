@@ -1,0 +1,138 @@
+.app{
+  width: 100vw;
+  height: 100vh;  
+  background-color: #ECE9F4;
+  color: #252183;
+}
+.SideBar{
+  height: 100vh;
+  width: 80px;
+  background-image:linear-gradient(#9f99e2,#d3c9f2b0) ;
+}
+::-webkit-scrollbar{
+  width:10px
+}
+::-webkit-scrollbar-thumb{
+  background: #9f99e2;
+  border-radius: 10px;
+  height: 5px;
+}
+.SideBarData{
+  display: flex;
+  color: #252183;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.SideBarData #icons{
+  font-size: 36px;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+ background-image:linear-gradient(to right,#9f99e2,#d3c9f2b0) ;
+}
+.navbarIcons{
+  display: flex;
+  color: aliceblue;
+  align-items: center;
+  padding: 20px 0px;
+}
+.header{
+  display: flex;
+}
+.rightSide{
+  width: 100%;
+}
+.dash-card{
+  min-width:160px;
+  min-height: 160px;
+  margin:0px 50px;
+  /* border: solid rgba(0, 0, 0, 0.155) 2px; */
+  background-color: #d3c9f2b0;
+  box-shadow: 2px 2px 2px 2px #9f99e2;
+  border-radius: 20px;
+  padding: 10px 10px -5px 10px;
+}
+.icon,.cardName{
+  padding: 10px 10px 0px 10px;
+}
+.cardName{
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.bot{
+  margin: 0px 5px;
+}
+.info h2{
+  margin-top: 20px;
+}
+.row{
+  margin: 30px;
+}
+/* .box .row{
+  margin: 20px 10px;
+} */
+.box button{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bolder;
+  border: none;
+  background-color: #9f99e2;
+}
+.feedback{
+  overflow: auto;
+}
+.moreInfo .row {
+  padding: 4px 10px;
+}
+.box{
+  padding-top: 15px ;
+  padding-bottom: 1px;
+}
+.info h3{
+  padding: 10px;
+}
+ h2{
+  margin-left: 10px;
+}
+.info p{
+  margin: 0px 10px;
+  color: green;
+}
+.names,.rating, p{
+  margin: 5px 10px;
+}
+table th{
+  padding: 20px 75px;
+  margin: 0px auto;
+}
+td{
+  padding: 7px 75px;
+}
+.navIcons{
+width: 200px;
+display:flex;
+justify-content: space-between;
+padding-right: 40px;
+}
+.searchBox{
+  position: relative;
+  padding-left: 40px;
+}
+.searchIcon{
+  position: absolute;
+  padding-left: 45px;
+}
+#icons:hover{
+color: aliceblue;
+}
+.SideBarData:hover{
+  border-left: #252183 solid 5px;
+  cursor: pointer;
+}
+.searchBox input{
+  border-radius: 3px;
+}
